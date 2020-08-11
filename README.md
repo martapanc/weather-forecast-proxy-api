@@ -9,6 +9,10 @@ gaa
 gcmsg "Initial commit"
 gp heroku master
 ```
+To scale dyno:
+```
+heroku ps:scale web=1
+```
 
 
 ### Documentation
