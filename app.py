@@ -16,8 +16,8 @@ def home():
         url = "https://api.openweathermap.org/data/2.5/onecall?lat=53.480720&lon=-2.240810&APPID={key}&units=metric"
         response_dict = requests.get(url).json()
         return jsonify(response_dict)
-    return render_template('index.html')
+    return jsonify({"message": "Hello world!"})
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=5000)
