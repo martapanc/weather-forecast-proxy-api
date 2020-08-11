@@ -2,7 +2,9 @@ import os
 
 import requests
 import requests_cache
-from flask import Flask, render_template, request, jsonify, url_for
+from flask import Flask, request, jsonify
+from flask_cors import CORS
+
 from dotenv import load_dotenv
 from pathlib import Path
 
@@ -16,6 +18,8 @@ OPEN_WEATHER_API_URL = "https://api.openweathermap.org/data/2.5/onecall?lat={lat
                        "&APPID={key}&units={units}"
 
 app = Flask(__name__)
+CORS(app)
+
 requests_cache.install_cache(cache_name='openweathermap_cache', backend='sqlite', expire_after=600)
 
 

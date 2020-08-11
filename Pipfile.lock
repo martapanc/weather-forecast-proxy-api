@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "808b8e67758cee568636d0ea5bdbe2403ea49c619c20c43c83286a0ea9a4b115"
+            "sha256": "7dea98542a0ab7cd07a1a7be91f78c101337b943dbcd1e631c2d7e3b8b54c95f"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -44,6 +44,14 @@
             ],
             "index": "pypi",
             "version": "==1.1.2"
+        },
+        "flask-cors": {
+            "hashes": [
+                "sha256:72170423eb4612f0847318afff8c247b38bd516b7737adfc10d1c2cdbb382d16",
+                "sha256:f4d97201660e6bbcff2d89d082b5b6d31abee04b1b3003ee073a6fd25ad1d69a"
+            ],
+            "index": "pypi",
+            "version": "==3.0.8"
         },
         "gunicorn": {
             "hashes": [
@@ -135,6 +143,13 @@
             ],
             "index": "pypi",
             "version": "==0.5.2"
+        },
+        "six": {
+            "hashes": [
+                "sha256:30639c035cdb23534cd4aa2dd52c3bf48f06e5f4a941509c8bafd8ce11080259",
+                "sha256:8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced"
+            ],
+            "version": "==1.15.0"
         },
         "urllib3": {
             "hashes": [
