@@ -1,4 +1,5 @@
 # Weather Forecast Proxy API
+Simple Flask REST API that works as a proxy between my [React Weather Dashboard](https://github.com/martapanc/React-Weather-Dashboard) and the OpenWeatherMap API, to avoid overloading the latter with requests.
 
 ### Initialization
 ```
